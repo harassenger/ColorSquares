@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Squres</title> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+</head>
+<body>    
+    <h1>COLOR SQUARES</h1> 
+    <nav> 
+        <input id="blue" class="button" type="button" value="Blue" onclick="changeBlue()">
+        <input id="green" type="button" value="Green" onclick="changeGreen()">
+        <input id="red" type="button" value="Red" onclick="changeRed()">
+        <br>
+        <input id="yellow" type="button" value="Yellow" onclick="changeYellow()">
+        <input id="orange" type="button" value="Orange" onclick="changeOrange()">
+        <input id="purple" type="button" value="Purple" onclick="changePurple()">
+        <br>
+        <input id="clearButton" type="button" value="Clear" onclick="resetColors()">
+        <input id="startButton" type="button" value="Auto" onclick="startColors()">
+        <input id="stopButton" type="button" value="Stop" onclick="stopColors()" disabled>
+    </nav>
+    <table id="table" cellspacing="10">
+        <tr>
+            <td id="one-one" class="all-td"></td>
+            <td id="one-two" class="all-td"></td>
+            <td id="one-three" class="all-td"></td>
+        </tr>
+        <tr>
+            <td id="two-one"></td>
+            <td id="two-two"></td>
+            <td id="two-three"></td>
+        </tr>
+        <tr>
+            <td id="three-one"></td>
+            <td id="three-two"></td>
+            <td id="three-three"></td>
+        </tr>
+    </table>  
+    <script src="script.js"></script> 
+</body>
+</html>
